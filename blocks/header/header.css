@@ -1,7 +1,18 @@
 .header {
     width: 288px;
     height: 42px;
-    left: 16px;
-    top: 16px;    
-    display: flex;
+    padding-left: 16px;
+    padding-top: 16px;    
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+@media (min-width: 1280px) {
+    .header {
+    width: 1184px;
+    height: 52px;
+    padding-left: 48px;
+    padding-top: 28px;
+    }
 }

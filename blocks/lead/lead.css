@@ -1,6 +1,13 @@
 .lead {
     width: 320px;
     height: 406px;
-    left: -2px;
-    top: 106px;
+}
+
+@media (min-width: 1280px) {
+    .lead {
+    width: 984px;
+    height: 1005px;
+    margin-left: 148px;
+    margin-top: 56px;
+    }
 }

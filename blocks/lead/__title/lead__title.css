@@ -2,13 +2,21 @@
     width: 288px;
     height: 88px;
     left: 16px;
-    top: 106px;
+    margin-top: 48px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
-    line-height: 44px;
-/* or 110% */
     text-align: center;
     color: #FFFFFF;
+}
+
+@media (min-width: 1280px) {
+    .lead__title {
+    width: 720px;
+    height: 200px;
+    margin-left: 132px;
+    font-size: 96px;
+    line-height: 100px;
+    }
 }

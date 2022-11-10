@@ -1,8 +1,17 @@
 .intro__title {
-    margin-left: 16px;
+    margin: 0;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     color: #FFFFFF;
+}
+
+@media (min-width: 1280px) {
+    .intro__title {
+        width: 690px;
+        height: 58px;
+        font-size: 54px;
+        line-height: 58px;
+    }
 }

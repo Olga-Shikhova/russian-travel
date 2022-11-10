@@ -1,0 +1,15 @@
+.cover__subtitle {
+    margin: 16px 16px 0 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.cover__subtitle:hover {
+    font-size: 18px;
+    line-height: 22px;
+}

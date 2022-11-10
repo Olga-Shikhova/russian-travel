@@ -1,7 +1,17 @@
 .intro__text {
     margin-top: 40px;
+    margin-bottom: 34px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+}
+
+@media (min-width: 1280px) {
+    .intro__text {
+        width: 690px;
+        height: 208px;
+        font-size: 16px;
+        line-height: 163%;
+    }
 }

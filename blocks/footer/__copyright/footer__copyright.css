@@ -1,0 +1,14 @@
+.footer__copyright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.footer__copyright:hover {
+    line-height: 16px;
+    text-align: right;
+}
