@@ -1,0 +1,12 @@
+.place {
+    width: 320px;
+}
+
+@media (min-width: 1280px) {
+    .place {
+        width: 984px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+    }
+}

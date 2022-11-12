@@ -6,3 +6,10 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+@media (min-width: 1280px) {
+    .place__website__link {
+        width: 456px;
+        height: 22px;
+    }
+}

@@ -5,3 +5,12 @@
     grid-template-rows: repeat(5, auto);
     gap: 50px;
 }
+
+@media (min-width: 1280px) {
+    .places {
+        width: 984px;
+        height: 3392px;
+        margin-left: 148px;
+        margin-top: 92px;
+    }
+}
