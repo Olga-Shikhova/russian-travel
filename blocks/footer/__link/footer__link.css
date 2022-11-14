@@ -12,3 +12,10 @@
     line-height: 18px;
     opacity: 0.8;
 }
+
+@media (min-width: 1280px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}

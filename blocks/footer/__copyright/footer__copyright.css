@@ -12,3 +12,11 @@
     line-height: 16px;
     text-align: right;
 }
+
+@media (min-width: 1280px) {
+    .footer__copyright {
+        margin-top: 0;
+        margin-left: 533px;
+        line-height: 16px;
+    }
+}

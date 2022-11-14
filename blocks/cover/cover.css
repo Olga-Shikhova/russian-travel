@@ -1,3 +1,10 @@
 .cover {
+    max-width: 1184px;
     margin-top: 66px;
+}
+
+@media (min-width: 1280px) {
+    .cover {
+        margin: 92px 48px;
+    }
 }

@@ -4,3 +4,11 @@
     grid-template-rows: repeat(6, auto);
     gap: 32px;
 }
+
+@media (min-width: 1280px) {
+    .footer__links {
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(1, auto);
+        gap: 18px;
+    }
+}
