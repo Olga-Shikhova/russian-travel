@@ -3,12 +3,12 @@
     display: grid;
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(5, auto);
-    gap: 3rem 2rem;
+    gap: 50px;
 }
 
 @media (min-width: 1280px) {
     .places {
         margin: 92px 148px 0;
-        gap: 3rem 2rem;
+        gap: 80px;
     }
 }

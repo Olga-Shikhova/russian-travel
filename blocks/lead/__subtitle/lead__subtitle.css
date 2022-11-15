@@ -1,8 +1,5 @@
 .lead__subtitle {
-    width: 288px;
-    height: 40px;
-    left: 16px;
-    top: 210px;
+    max-width: 640px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -11,13 +8,10 @@
     color: #FFFFFF;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
     .lead__subtitle {
-        width: 640px;
-        height: 72px;
-        margin-top: 32px;
-        margin-left: 172px;
+        margin: 32px auto 0 auto;
         font-size: 30px;
-        line-height: 36px;
+        line-height: 1;
     }
 }

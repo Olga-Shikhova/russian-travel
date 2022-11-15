@@ -1,11 +1,12 @@
 .place {
-    width: 320px;
+    max-width: 984px;
 }
 
 @media (min-width: 1280px) {
     .place {
-        width: 984px;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+        grid-template-rows: repeat(2, auto);
+        gap: 3rem 2rem;
     }
 }
