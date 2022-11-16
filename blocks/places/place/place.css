@@ -2,6 +2,15 @@
     max-width: 984px;
 }
 
+@media (min-width: 768px) {
+    .place {
+        display: grid;
+        grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+        grid-template-rows: repeat(2, auto);
+        gap: 3rem 1.75rem;
+    }
+}
+
 @media (min-width: 1280px) {
     .place {
         display: grid;

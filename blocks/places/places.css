@@ -6,6 +6,13 @@
     gap: 50px;
 }
 
+@media (min-width: 768px) {
+    .places {
+        margin: 88px 24px 0;
+        gap: 73px;
+    }
+}
+
 @media (min-width: 1280px) {
     .places {
         margin: 92px 148px 0;
