@@ -1,18 +1,27 @@
 .intro {
-    max-width: 690px;
-    margin-left: 16px;
-    margin-top: 78px;
+    max-width: 984px;
+    margin: 6rem auto 0;
+    padding: 0 3rem;
 }
 
-@media (min-width: 768px) {
-    .intro {
-        margin: 88px 24px 0;
-    }
-}
-
-@media (min-width: 1280px) {
+@media (max-width: 1280px) {
     .intro {
         margin-left: 148px;
         margin-top: 92px;
     }
 }
+
+@media (max-width: 1024px) {
+    .intro {
+        margin: 92px 48px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        margin: 88px 24px 0;
+    }
+}
+
+
+

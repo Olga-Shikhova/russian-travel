@@ -1,8 +1,15 @@
 .place__website {
+    margin: 0 16px 32px;
     align-self: end;
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 768px) {
+    .place__website {
+        margin: 0;
+    }
+}
+
+@media (max-width: 1280px) {
     .place__website {
         align-self: end;
     }

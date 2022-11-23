@@ -1,23 +1,33 @@
 .lead__image {
     width: 100%;
-    height: 200px;
-    margin-top: 40px;
-    margin-bottom: 8px;
+    margin: 64px auto 0;
+    height: 615px;
     background: url(../../../images/sprint-3-images/lead-polka.jpg);
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
+@media (max-width: 1280px) { 
+    .lead__image { 
+      min-height: calc(100vw * 740 / 1280); 
+    } 
+} 
+  
+@media (max-width: 1024px) { 
+    .lead__image { 
+      min-height: calc(100vw * 640 / 1024); 
+    } 
+} 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .lead__image {
-        width: 100%;
-        height: 480px;
-        margin-top: 64px;
+        min-height: calc(100vw * 480 / 768);
     }
 }
 
-@media (min-width: 1280px) {
-    .lead__image {
-        height: 615px;
-    }
-}
+@media (max-width: 320px) {
+    .lead__image { 
+      background-size: cover; 
+    } 
+} 
