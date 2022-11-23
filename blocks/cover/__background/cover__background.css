@@ -1,6 +1,7 @@
 .cover__background {
     position: relative;
     max-width: 100%;
+    min-height: calc(100vw * 740 / 1280);
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -12,7 +13,6 @@
     text-decoration: none;
     z-index: 1;
     color: #fff;
- 
 }
 
 .cover__background::after {
@@ -24,18 +24,11 @@
     opacity: .3;
     top: 0;
     left: 0;
-
 }
 
 .cover__background:hover::after {
     opacity: .8;
 }
-
-@media (max-width: 1280px) { 
-  .cover__background { 
-    min-height: calc(100vw * 740 / 1280); 
-  } 
-} 
 
 @media (max-width: 1024px) { 
   .cover__background { 

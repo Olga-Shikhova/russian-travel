@@ -4,24 +4,26 @@
     padding: 0 3rem;
 }
 
-@media (max-width: 1280px) {
-    .intro {
-        margin-left: 148px;
-        margin-top: 92px;
-    }
-}
-
 @media (max-width: 1024px) {
     .intro {
-        margin: 92px 48px 0;
+        margin: calc(5.75rem + (100vw - 768px) / (1024 - 768) * (92 - 88)) auto 0; 
+        padding: 0 calc(1.5rem + (100vw - 768px) / (1024 - 768) * (48 - 24)); 
     }
 }
 
 @media (max-width: 768px) {
     .intro {
-        margin: 88px 24px 0;
+        margin: calc(4.25rem + (100vw - 320px) / (768 - 320) * (88 - 64)) auto 0; 
+        padding: 0 calc(1rem + (100vw - 320px) / (768 - 320) * (24 - 16));
     }
 }
+
+@media screen and (max-width: 425px) { 
+    .intro { 
+      margin: 4.5rem auto 0; 
+    } 
+}
+
 
 
 

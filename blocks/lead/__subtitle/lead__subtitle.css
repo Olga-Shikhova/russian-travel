@@ -10,6 +10,7 @@
 @media (max-width: 768px) {
     .lead__subtitle {
         margin: 32px auto 0 auto;
+        padding: 0 1rem;
         font-size: calc(1rem + (100vw - 320px) / (768 - 320) * (30 - 16));
     }
 }
